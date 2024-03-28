@@ -336,10 +336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7147c787d8ab8db40880f895b2365942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  square: {fileID: 6976791530712994371, guid: 5807a91ef57208a48b73e8bb214e01de, type: 3}
-  circle: {fileID: 5011129827613090883, guid: 2f6f7393e47c6e1458567c3215f68e64, type: 3}
-  location1: {fileID: 820062345}
-  location2: {fileID: 427082937}
+  stimuli:
+  - {fileID: 5011129827613090883, guid: 2f6f7393e47c6e1458567c3215f68e64, type: 3}
+  - {fileID: 6976791530712994371, guid: 5807a91ef57208a48b73e8bb214e01de, type: 3}
+  locations:
+  - {fileID: 820062345}
+  - {fileID: 427082937}
 --- !u!4 &1668159978
 Transform:
   m_ObjectHideFlags: 0
